@@ -77,8 +77,6 @@
       <Version>3.6.141</Version>
       <PrivateAssets>all</PrivateAssets>
     </PackageReference>
-    <!-- Include license file in packages -->
-    <Content Include="$(ProjectDir)LICENSE" Pack="true" PackagePath="\" />
   </ItemGroup>
 
   <!-- Configuring strong name signing -->
